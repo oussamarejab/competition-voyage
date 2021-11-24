@@ -1,0 +1,855 @@
+            /*search box css start here*/
+            
+            #upbuttonouss {
+                width: 139px;
+                align-items: center;
+                text-align: center;
+                border-radius: 35px;
+            }
+            
+            @media screen and (max-width: 962px) {
+                #upbuttonouss {
+                    background-color: rgba(64, 168, 224, 0.713);
+                }
+            }
+            
+            .search-sec {
+                padding: 2rem;
+            }
+            
+            .search-slt {
+                display: block;
+                width: 100%;
+                font-size: 0.875rem;
+                line-height: 1.5;
+                color: #55595c;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                height: calc(3rem + 2px) !important;
+                border-radius: 0;
+            }
+            
+            .wrn-btn {
+                width: 100%;
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: capitalize;
+                height: calc(3rem + 2px) !important;
+                border-radius: 0;
+            }
+            
+            @media (min-width: 992px) {
+                .search-sec {
+                    position: relative;
+                    top: -114px;
+                    background: rgba(26, 70, 104, 0.51);
+                }
+            }
+            
+            @media (max-width: 992px) {
+                .search-sec {
+                    background: #1A4668;
+                }
+            }
+            /* ========================= */
+            /*search box css start here*/
+            
+            .search-sec {
+                padding: 2rem;
+            }
+            
+            .search-slt {
+                display: block;
+                width: 100%;
+                font-size: 0.875rem;
+                line-height: 1.5;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                height: calc(3rem + 2px) !important;
+                border-radius: 0;
+            }
+            
+            .wrn-btn {
+                width: 100%;
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: capitalize;
+                height: calc(3rem + 2px) !important;
+                border-radius: 0;
+            }
+            
+            .search-sec {
+                margin-top: -130px;
+            }
+            /* /search box css start here*/
+            /* header */
+            
+            .sec1ouss {
+                position: relative;
+                margin-top: -20px;
+            }
+            
+            #navbarNav {
+                /* background-color: red; */
+            }
+            
+            .sec1 {
+                position: absolute;
+                z-index: 20;
+            }
+            
+            #navbarnav {
+                margin: 17px auto;
+                text-align: center;
+                background-color: #83c0d7;
+                width: 2px;
+                border-radius: 49px;
+            }
+            
+            .navbar-brand {
+                margin: 20px 185px;
+                transition: all ease 1s;
+            }
+            
+            .navbar-nav li {
+                margin-right: 20px;
+            }
+            
+            .navbar-nav li a {
+                font-size: large;
+                font-weight: bold;
+                transition: all ease 1s;
+            }
+            
+            .navbar-nav li a:hover {
+                transform: scale(1.1, 1.1);
+                background-color: rgb(25, 209, 206);
+            }
+            
+            .navbar-light .navbar-nav .nav-link {
+                color: turquoise;
+            }
+            
+            #homeouss {
+                border-bottom: 3px solid rgb(25, 209, 206);
+            }
+            
+            @media only screen and (max-width:1210px) and (min-width:1120px) {
+                .navbar-nav li {
+                    margin-right: 5px;
+                }
+            }
+            
+            @media only screen and (max-width:1119px) and (min-width:992px) {
+                .navbar-brand {
+                    margin: 20px 80px;
+                }
+                .navbar-brand img {
+                    width: 130px;
+                }
+            }
+            
+            @media only screen and (max-width:991px) and (min-width: 300px) {
+                .navbar-brand {
+                    margin: 20px 20px;
+                }
+                .navbar-brand img {
+                    width: 90px;
+                }
+            }
+            
+            @media only screen and (max-width:740px) and (min-width: 300px) {
+                .navbar-toggler {
+                    /* margin-right: -35vh; */
+                }
+            }
+            /*         
+        .sec2ouss {
+            margin: 40px 80px;
+        }
+        
+        .sec2ouss .card img {
+            width: 80%;
+        }
+        
+        .sec2ouss .card-group .card {
+            margin: 10px 20px;
+            padding: 9px;
+            width: 100px;
+        } */
+            
+            .sec2ouss {
+                margin-top: 100px;
+                text-align: center;
+            }
+            
+            .sec2ouss .card-group {
+                margin-top: 40px;
+            }
+            
+            .sec2ouss .card {
+                padding: 10px;
+            }
+            /* sec 3 */
+            
+            .sec2ouss .card h6 {
+                background-color: turquoise;
+                margin: -40px 64px 7px;
+                padding: 7px;
+            }
+            
+            .sec2ouss .card img {
+                transition: all 1s ease;
+            }
+            
+            .sec2ouss .card p {
+                color: turquoise;
+                font-weight: bold;
+                transition: all 1s ease;
+            }
+            
+            .sec2ouss .card p:hover {
+                transform: scale(1.1, 1.1);
+                cursor: crosshair;
+                color: violet;
+            }
+            
+            .sec2ouss .card img:hover {
+                transform: scale(1.1, 1.2);
+                cursor: pointer;
+            }
+            
+            .sec3ouss {
+                margin-top: 100px;
+                text-align: center;
+            }
+            
+            .sec3ouss img {
+                height: 296px;
+                transition: ease 1s all;
+            }
+            
+            .sec3ouss img:hover {
+                transform: scale(1.4, 1.4);
+                cursor: pointer;
+                z-index: 3;
+            }
+            
+            .sec3ouss h6 {
+                background-color: rgb(14, 12, 12);
+                margin: -33px 2px 7px 170px;
+                PADDING: 3px;
+                color: white;
+                font-size: 13px;
+                border-radius: 47px 3px 7px 53px;
+            }
+            
+            .sec3ouss h5 {
+                margin: -250px 103px 10px -58px;
+                color: white;
+            }
+            
+            .sec4ouss {
+                margin-top: 100px;
+                /* align-items: center;
+            text-align: center; */
+            }
+            
+            .sec4ouss h1,
+            p {
+                text-align: center;
+            }
+            
+            .sec4ouss img {
+                transition: all 1s;
+            }
+            
+            .sec4ouss img:hover {
+                transform: scale(1.5, 1.5);
+                z-index: 44;
+                cursor: pointer;
+                border-radius: 60px;
+            }
+            
+            .sec4ouss .card h6 {
+                background-color: turquoise;
+                margin: -20px 64px 7px;
+                padding: 7px;
+                width: 123px;
+                align-self: center;
+                border-radius: 20px;
+                align-items: center;
+                text-align: center;
+                z-index: 55;
+            }
+            
+            .sec4ouss .card h6:hover {
+                cursor: pointer;
+            }
+            
+            .sec4ouss h5 {
+                transition: all ease 1s;
+            }
+            
+            .sec4ouss h5:hover {
+                transform: scale(1.1, 1.1);
+                cursor: pointer;
+            }
+            
+            .sec5ouss {
+                margin: 100px 1px;
+                background-color: rgba(128, 128, 128, 0.433);
+                padding: 49px 143px 76px 155px;
+                text-align: center;
+                align-items: center;
+            }
+            
+            .sec5ouss .card-body {
+                transition: all 1s ease;
+            }
+            
+            .sec5ouss .card-body:hover {
+                transform: scale3d(1.5, 1.5, 1.8);
+                cursor: pointer;
+                background-color: aquamarine;
+                border-radius: 30px;
+                z-index: 99;
+            }
+            
+            .sec5ouss img {
+                width: 40px;
+                border-radius: 30px;
+                transition: ease all 1s;
+            }
+            
+            .sec5ouss img:hover {
+                transform: scale(3, 3);
+                cursor: pointer;
+            }
+            
+            .sec5ouss h1 {
+                margin: 50px;
+            }
+            
+            .sec5ouss .card {
+                width: 16rem !important;
+                margin: 30px;
+            }
+            /*Client-stylesheets-include-here*/
+            
+            #client {
+                text-align: center;
+                position: relative;
+                padding: 70px 0px 10px 0px;
+            }
+            
+            .section-padding {
+                padding: 60px 0;
+            }
+            
+            .brand-carousel {
+                background: aliceblue;
+                margin-top: 15%;
+            }
+            
+            .owl-dots {
+                text-align: center;
+                margin-top: 4%;
+            }
+            
+            .owl-dot {
+                display: inline-block;
+                height: 15px !important;
+                width: 15px !important;
+                background-color: #878787 !important;
+                opacity: 0.8;
+                border-radius: 50%;
+                margin: 0 5px;
+            }
+            
+            .owl-dot.active {
+                background-color: #000 !important;
+            }
+            
+            h2 {
+                text-align: center;
+                padding: 20px;
+            }
+            /* Slider */
+            
+            .slick-slide {
+                margin: 0px 20px;
+            }
+            
+            .slick-slide img {
+                width: 100%;
+            }
+            
+            .slick-slider {
+                position: relative;
+                display: block;
+                box-sizing: border-box;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                -webkit-touch-callout: none;
+                -khtml-user-select: none;
+                -ms-touch-action: pan-y;
+                touch-action: pan-y;
+                -webkit-tap-highlight-color: transparent;
+            }
+            
+            .slick-list {
+                position: relative;
+                display: block;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .slick-list:focus {
+                outline: none;
+            }
+            
+            .slick-list.dragging {
+                cursor: pointer;
+                cursor: hand;
+            }
+            
+            .slick-slider .slick-track,
+            .slick-slider .slick-list {
+                -webkit-transform: translate3d(0, 0, 0);
+                -moz-transform: translate3d(0, 0, 0);
+                -ms-transform: translate3d(0, 0, 0);
+                -o-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+            
+            .slick-track {
+                position: relative;
+                top: 0;
+                left: 0;
+                display: block;
+            }
+            
+            .slick-track:before,
+            .slick-track:after {
+                display: table;
+                content: '';
+            }
+            
+            .slick-track:after {
+                clear: both;
+            }
+            
+            .slick-loading .slick-track {
+                visibility: hidden;
+            }
+            
+            .slick-slide {
+                display: none;
+                float: left;
+                height: 100%;
+                min-height: 1px;
+            }
+            
+            [dir='rtl'] .slick-slide {
+                float: right;
+            }
+            
+            .slick-slide img {
+                display: block;
+            }
+            
+            .slick-slide.slick-loading img {
+                display: none;
+            }
+            
+            .slick-slide.dragging img {
+                pointer-events: none;
+            }
+            
+            .slick-initialized .slick-slide {
+                display: block;
+            }
+            
+            .slick-loading .slick-slide {
+                visibility: hidden;
+            }
+            
+            .slick-vertical .slick-slide {
+                display: block;
+                height: auto;
+                border: 1px solid transparent;
+            }
+            
+            .slick-arrow.slick-hidden {
+                display: none;
+            }
+            
+            .sponsorr {
+                margin-bottom: 41px;
+            }
+            
+            .sponsorr .contact ul {
+                font-size: 23px;
+                float: right;
+                margin-top: -81px;
+                margin-right: 88px;
+                transition: ease 1s all;
+            }
+            
+            .sponsorr .contact ul li {
+                display: inline;
+                border: 1px solid;
+                border-radius: 28px;
+                margin-left: 1px;
+                padding: 7px;
+            }
+            
+            .sponsorr .contact .contactfas:hover {
+                transform: scale(1.5, 1.5);
+            }
+            
+            .sponsorr .contact ul .contactfab {
+                color: rgb(209, 209, 209);
+                background-color: green;
+            }
+            
+            .sponsorr .contact ul .contactfas {
+                color: rgb(69, 84, 201);
+            }
+            
+            .sponsorr .contact ul .contactfar {
+                color: rgb(225, 226, 233);
+                background-color: rgb(0, 36, 128);
+            }
+            
+            .sponsorr .contact ul .contactfar i {
+                width: 40px;
+                text-align: center;
+                transition: all 1s ease;
+            }
+            
+            .sponsorr .contact ul .contactfab i {
+                width: 30px;
+                padding: 7px;
+                text-align: center;
+            }
+            /* footer================================ */
+            
+            .footer {
+                background: black;
+            }
+            
+            .footer .footer_top {
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
+            
+            @media (max-width: 767px) {
+                /* line 3, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .footer_top {
+                    padding-top: 60px;
+                    padding-bottom: 30px;
+                }
+            }
+            
+            @media (max-width: 767px) {
+                /* line 10, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .footer_top .footer_widget {
+                    margin-bottom: 30px;
+                }
+            }
+            
+            @media (min-width: 768px) and (max-width: 991px) {
+                /* line 10, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .footer_top .footer_widget {
+                    margin-bottom: 30px;
+                }
+            }
+            /* line 17, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget .footer_title {
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+                text-transform: capitalize;
+                margin-bottom: 40px;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            @media (max-width: 767px) {
+                /* line 17, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .footer_top .footer_widget .footer_title {
+                    margin-bottom: 20px;
+                }
+            }
+            /* line 28, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget p.footer_text {
+                font-size: 14px;
+                color: #C7C7C7;
+                margin-bottom: 23px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+            /* line 34, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget p.footer_text a.domain {
+                color: #B2B2B2;
+                font-weight: 400;
+            }
+            /* line 37, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget p.footer_text a.domain:hover {
+                color: #F2C64D;
+                border-bottom: 1px solid #F2C64D;
+            }
+            /* line 43, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget p.footer_text.doanar a {
+                font-weight: 500;
+                color: #B2B2B2;
+            }
+            /* line 47, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
+                color: #F2C64D;
+                border-bottom: 1px solid #F2C64D;
+            }
+            /* line 51, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget p.footer_text.doanar a.first {
+                margin-bottom: 10px;
+            }
+            /* line 60, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget ul li a {
+                font-size: 14px;
+                color: #C7C7C7;
+                line-height: 42px;
+            }
+            /* line 64, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget ul li a:hover {
+                color: #F2C64D;
+            }
+            /* line 70, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget .newsletter_form {
+                position: relative;
+                margin-bottom: 20px;
+            }
+            /* line 73, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget .newsletter_form input {
+                width: 100%;
+                height: 45px;
+                background: #fff;
+                padding-left: 20px;
+                font-size: 14px;
+                color: #000;
+                border: none;
+            }
+            /* line 81, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget .newsletter_form input::placeholder {
+                font-size: 14px;
+                color: #C7C7C7;
+            }
+            /* line 86, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget .newsletter_form button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                border: none;
+                font-size: 14px;
+                color: #fff;
+                background: #F2C64D;
+                padding: 10px;
+                padding: 0 22px;
+                cursor: pointer;
+            }
+            /* line 100, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_top .footer_widget .newsletter_text {
+                font-size: 14px;
+                color: #BABABA;
+            }
+            
+            .footer .footer_top .footer_widget ul {
+                transform: scaleX(1.2, 1.2);
+                transition: all 1s ease;
+            }
+            /* line 106, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .copy-right_text {
+                padding-bottom: 30px;
+                background: #000000;
+            }
+            /* line 109, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .copy-right_text .footer_border {
+                padding-bottom: 30px;
+            }
+            /* line 112, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .copy-right_text .copy_right {
+                font-size: 14px;
+                color: #C7C7C7;
+                margin-bottom: 0;
+                font-weight: 400;
+            }
+            
+            @media (max-width: 767px) {
+                /* line 112, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .copy-right_text .copy_right {
+                    font-size: 14px;
+                }
+            }
+            /* line 120, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .copy-right_text .copy_right a {
+                color: #F2C64D;
+            }
+            
+            @media (max-width: 767px) {
+                /* line 125, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .socail_links {
+                    margin-top: 30px;
+                }
+            }
+            /* line 130, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .socail_links ul li {
+                display: inline-block;
+            }
+            /* line 132, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .socail_links ul li a {
+                background: #313131;
+                color: #8B8B8B;
+                width: 40px;
+                height: 40px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                line-height: 40px;
+                margin: 0 3px;
+                font-size: 17px;
+            }
+            /* line 143, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .socail_links ul li a:hover {
+                color: #F2C64D;
+            }
+            /* line 150, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+            
+            .footer .footer_logo {
+                margin-bottom: 43px;
+            }
+            
+            @media (max-width: 767px) {
+                /* line 150, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
+                .footer .footer_logo {
+                    margin-bottom: 20px;
+                }
+            }
+            
+            .footer dl,
+            ol,
+            ul {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                list-style: none;
+                width: 200px;
+            }
+            
+            .footer dl,
+            ol,
+            ul a {
+                color: white;
+            }
+            
+            .footer .footer_top {
+                padding-top: 28px;
+                padding-bottom: 24px;
+            }
+            
+            @media (min-width: 300px) and (max-width: 580px) {
+                .sec5ouss h1 {
+                    margin: 1px;
+                }
+                .sec5ouss .container .row {
+                    width: 241px;
+                    margin: 2px -73px;
+                }
+            }
+            
+            .upbutton {
+                position: fixed;
+                bottom: 30px;
+                right: 10px;
+                z-index: 99;
+                text-align: center;
+                width: 50px;
+                opacity: .7;
+            }
+            
+            .upbutton a {
+                display: block;
+                padding: 8px;
+                transition: all 0.5s ease;
+                color: white;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            
+            .upbutton:hover {
+                opacity: 1;
+            }
+            
+            .stickyicon-list {
+                position: fixed;
+                top: 300px;
+                left: 10px;
+                /* transform: translateY(-50%); */
+                z-index: 99;
+                text-align: center;
+                width: 50px;
+                opacity: .7;
+            }
+            
+            .stickyicon-list:hover {
+                opacity: 1;
+            }
+            
+            .stickyicon-list a {
+                display: block;
+                padding: 8px;
+                transition: all 0.5s ease;
+                color: white;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            /* HOver affect on sticky social media icons */
+            
+            .stickyicon-list .upbutton,
+            a:hover {
+                transform: scale(1.3, 1.3);
+            }
+            /* Now we have to design each icon of social media */
+            
+            .phonecallou {
+                background: rgb(233, 220, 41);
+                color: rgb(70, 76, 235);
+                border-radius: 10px;
+            }
