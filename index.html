@@ -110,33 +110,44 @@
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                                <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <img id="imageToSwap" src="image/pp.jfif" style="margin: 9px 53px -11px 0px;" width="20px" />
+
+                                <br/><br/>
+                                <select class="form-control search-slt" id="dlist" style="margin-top: -48px;" onChange="swapImage()">
 
 
                                     
-                                    <option>Where you want to go</option>
-                                    <option value="1">Image 1</option>
-                                    <option value="2">Image 2</option>
-                                    <option value="3">Image 3</option>
-                                    <option value="4">Image 4</option>
-                                    <option value="5">Image 5</option>
-                                    <option value="6">Image 6</option>
-                                    <option value="7">Image 7</option>
+                                    <option value="image/Null_user.jpg">Where you want to go</option>
+                                    <option value="image/Null_user.jpg">EGYPT</option>
+                                    <option value="image/Volvo_user.jpg">TUNISIA</option>
+                                    <option value="image/pp.jfif">EUROPE</option>
+                                    <option value="image/Null_user.jpg">TURKYE</option>
+                                    <option value="image/Volvo_user.jpg">INDONESIA</option>
+                                    <option value="image/pp.jfif">MALESYA</option>
+                                    <option value="image/Volvo_user.jpg">SENEGAL</option>
                                 </select>
+
+                                <script type="text/javascript">
+                                    function swapImage() {
+                                        var image = document.getElementById("imageToSwap");
+                                        var dropd = document.getElementById("dlist");
+                                        image.src = dropd.value;
+                                    };
+                                </script>
 
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                                <input type="text" class="form-control search-slt" placeholder="Enter Drop City">
+                                <input type="text" class="form-control search-slt" placeholder="Enter  City">
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-12 p-0">
                                 <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                    <option>Select Vehicle</option>
-                                    <option>Example one</option>
-                                    <option>Example one</option>
-                                    <option>Example one</option>
-                                    <option>Example one</option>
-                                    <option>Example one</option>
-                                    <option>Example one</option>
+                                    <option>HOW MANY PERSON</option>
+                                    <option>1 adult</option>
+                                    <option>2 adult</option>
+                                    <option>2 adult + 1 kids</option>
+                                    <option>2 adult + 2 kids</option>
+                                    <option>2 adult + 3 kids</option>
+                                    <option>2 adult + 4 kids</option>
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-12 p-0">
@@ -148,6 +159,7 @@
             </form>
         </div>
     </section>
+
 
     <!-- section 2 top hotels -->
     <section class="sec2ouss">

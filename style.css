@@ -198,6 +198,15 @@
                 background-color: turquoise;
                 margin: -40px 64px 7px;
                 padding: 7px;
+                transition: all ease 1s;
+            }
+            
+            .sec4ouss .card h6 {
+                transition: all ease 1s;
+            }
+            
+            .sec4ouss .card h6:hover {
+                transform: scale(1.7, 1.9);
             }
             
             .sec2ouss .card img {
